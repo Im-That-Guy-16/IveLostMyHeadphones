@@ -6,7 +6,7 @@
   <img alt="Type" src="https://img.shields.io/badge/Type-Stylesheet-3B82F6?style=for-the-badge">
   <img alt="Userscript" src="https://img.shields.io/badge/Userscript-Optional-6E40C9?style=for-the-badge">
   <img alt="CSS" src="https://img.shields.io/badge/CSS-Dark%20Theme-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-  <img alt="Delivery" src="https://img.shields.io/badge/Delivery-GitLab%20Pages-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white">
+  <img alt="Delivery" src="https://img.shields.io/badge/Delivery-GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white">
   <img alt="Licence" src="https://img.shields.io/badge/Licence-MIT-22C55E?style=for-the-badge">
 </p>
 
@@ -30,7 +30,7 @@ An optional userscript adds editor enhancements on top of the theme.
 
 ## Install
 
-**Stylesheet** — once GitLab Pages has published, use the Pages URL for
+**Stylesheet** — once GitHub Pages has published, use the Pages URL for
 `Project-STMPE.css` as the hosted stylesheet URL in your profile settings, or load
 the file in a userstyle manager such as [Stylus](https://add0n.com/stylus.html).
 
