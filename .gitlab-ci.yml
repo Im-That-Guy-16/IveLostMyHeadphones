@@ -1,0 +1,18 @@
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  image: alpine:latest
+  script:
+    - mkdir -p public
+    - cp Project-STMPE.css public/Project-STMPE.css
+    - cp RED-Enriched.user.js public/RED-Enriched.user.js
+    - cp -R assets public/assets
+    - cp README.md public/README.md
+    - cp pages/index.html public/index.html
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
